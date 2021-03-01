@@ -79,7 +79,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             // else imageURl = poster image
             else {
                 imageUrl = movie.getPosterPath();
-                if (movie.getRating() > 5){
+                if (movie.getRating() > 5.0){
                     Glide.with(context).load(movie.getBackdropPath()).into(fullbackdrop);
                 }
             }
