@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#000000">
@@ -10,7 +11,7 @@
         android:id="@+id/fullbackdrop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="30dp"
+        android:paddingTop="30dp"
         android:paddingEnd="0dp"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -44,14 +45,14 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="268dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="162dp"
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="3dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:paddingStart="0dp"
-        android:paddingEnd="50dp"
+        android:paddingBottom="50dp"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         tools:text="A portal transports Cpt. Artemis and an elite unit of soldiers to a strange world where powerful monsters rule with deadly ferocity. Faced with relentless danger, the team encounters a mysterious hunter who may be their only hope to find a way home." />
